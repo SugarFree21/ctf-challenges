@@ -1,5 +1,9 @@
 # Bro do you even crack?
 
+## Quick Note
+
+I lost the pcap file after the competition ended, and haven't re-generated it. You get the idea behind the challenge from the writeup though. 
+
 ## Challenge
 
 Rating: intermidiate
