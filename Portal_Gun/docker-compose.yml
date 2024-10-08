@@ -1,0 +1,8 @@
+services:
+    web:
+        image: httpd
+        container_name: portal_gun
+        ports:
+            - 12346:80
+        volumes:
+            - ./src:/usr/local/apache2/htdocs

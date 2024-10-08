@@ -1,0 +1,8 @@
+services:
+    web:
+        image: httpd
+        container_name: first_things_first
+        ports:
+            - 12345:80
+        volumes:
+            - ./src:/usr/local/apache2/htdocs

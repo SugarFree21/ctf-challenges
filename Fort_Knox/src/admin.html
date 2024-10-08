@@ -1,0 +1,24 @@
+<html>
+
+<script>
+    let access = localStorage.getItem("backstage_pass");
+    if (access != "yeah_this_one's_allowed"){
+        console.log("hacker incoming");
+        window.location.replace("./index.html");
+    }
+</script>
+
+<head>
+    <title>Fort Knox - Admin</title>
+</head>
+
+<body>
+    <h1>Fort Knox - Admin</h1>
+
+    <p>Welcome to being an admin. You have all the secrets now. The flag that you seek is the password that you used to log into this page.</p>
+    <p>byuctf{password}</p>
+
+    <img src="https://raw.githubusercontent.com/BYU-CSA/cyber-kickstart/cyber-kickstart-2.0/Web%20Enumeration/flag.png" width="1px">
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+services:
+    web:
+        image: httpd
+        container_name: fort_knox
+        ports:
+            - 12347:80
+        volumes:
+            - ./src:/usr/local/apache2/htdocs
